@@ -1,0 +1,51 @@
+body {
+    margin: 20vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100vh;
+    /* background-color: rgb(75, 184, 48); */
+    color: white;
+    text-align: center;
+}
+
+main {
+    border: 1px solid white;
+    text-align: center;
+    height: 100%;
+}
+
+p {
+    margin-top: 200px;
+    padding: 2rem;
+    text-align: center;
+    font-size: xx-large;
+    color:rgb(77, 14, 45);
+    background-color: rgb(211, 181, 181); 
+}
+
+#show-btn
+{
+    color:rgb(158, 194, 28);
+    background-color: rgb(46, 35, 35);
+}
+
+#bday-input
+{
+    color:rgb(158, 194, 28);
+    background-color: rgb(46, 35, 35);
+    margin-block: 1rem;
+}
+
+label{
+    margin: 25px 50px;
+    color: rgb(77, 14, 45);
+    font-size: x-large;
+}
+
+html { 
+    background: url(./images/ha.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
