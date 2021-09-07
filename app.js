@@ -181,11 +181,11 @@ function reverseString(str) {
     }
   }
   
-  var bdayInput = document.querySelector('#bday-input');
-  var showBtn = document.querySelector('#show-btn');
+  var bdayInput = document.querySelector('#bday');
+  var showBtn = document.querySelector('#Enter-btn');
   var resultDiv = document.querySelector('#output');
   
-  function clickHandler(e) {
+  function clickHandler() {
     var bdayString = bdayInput.value;
   
     if (bdayString !== '') {
@@ -216,13 +216,13 @@ function reverseString(str) {
         const [ctr2, prevDate] = getPreviousPalindromeDate(date);
   
         if (ctr1 > ctr2) {
-          output.innerText = `The nearest palindrome date is ${prevDate.day}-${prevDate.month}-${prevDate.year}, you missed by ${ctr2} days.`;
+          output.innerText = `The nearest palindrome date is ${prevDate.day}-${prevDate.month}-${prevDate.year}, you missed by ${ctr2} days.😞😞`;
         } else {
-          output.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${ctr1} days.`;
+          output.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${ctr1} days.😞😞`;
         }
   
       } else {
-        output.innerText = '🎉 🎊 🎉 Way to go! Your Birthday is palindrome.'
+        output.innerText = '🎉 🎊 🎉 Way to go! Your Birthday is palindrome.😃 ✨'
       }
     }
   }
